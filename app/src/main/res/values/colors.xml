@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#B22222</color>
+    <color name="green">#307533</color>
+    <color name="theme">#001997</color>
+    <color name="dialog">#FFFFFF</color>
+    <color name="slider">#30000000</color>
+    <color name="text">#000000</color>
+    <color name="text_light">#4C4C4C</color>
+
+    <color name="icon">#C3CCFA</color>
+    <color name="black">#000000</color>
+    <color name="hint">#A069949F</color>
+
+</resources>

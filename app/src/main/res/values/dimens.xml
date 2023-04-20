@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--	font size	-->
+	<dimen name="tiny">10sp</dimen>
+	<dimen name="small">13sp</dimen>
+	<dimen name="normal">14sp</dimen>
+	<dimen name="medium">16sp</dimen>
+
+	<!--	shape size	-->
+	<dimen name="_1dp">1.50dp</dimen>
+	<dimen name="_5dp">5.00dp</dimen>
+	<dimen name="_10dp">10.00dp</dimen>
+	<dimen name="_15dp">15.00dp</dimen>
+	<dimen name="_20dp">20.00dp</dimen>
+	<dimen name="_25dp">25.00dp</dimen>
+	<dimen name="_30dp">30.00dp</dimen>
+	<dimen name="_35dp">35.00dp</dimen>
+	<dimen name="_40dp">40.00dp</dimen>
+	<dimen name="_45dp">45.00dp</dimen>
+	<dimen name="_65dp">65.00dp</dimen>
+	<dimen name="_85dp">85.00dp</dimen>
+	<dimen name="_110dp">110.00dp</dimen>
+	<dimen name="_120dp">120.00dp</dimen>
+	<dimen name="_130dp">130.00dp</dimen>
+	<dimen name="_150dp">150.00dp</dimen>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        app:cardCornerRadius="@dimen/_10dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:text="@string/select_server"
+            android:padding="@dimen/_15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/server"
+            android:padding="@dimen/_15dp"
+            android:text="a. raw 01"
+            android:textColor="@color/text_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        app:cardCornerRadius="@dimen/_10dp"
+        app:cardUseCompatPadding="true">
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/theme"
+            android:text="@string/night_mode"
+            android:padding="@dimen/_15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_5dp"
+        app:cardCornerRadius="@dimen/_10dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:padding="@dimen/_15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1dp"
+                android:layout_marginVertical="@dimen/_15dp" />
+            <TextView
+                android:id="@+id/about"
+                android:ellipsize="end"
+                android:text="@string/about"
+                android:textColor="@color/text_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

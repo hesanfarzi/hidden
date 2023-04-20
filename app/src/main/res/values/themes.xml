@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="colorPrimary">@color/theme</item>
+        <item name="colorOnPrimary">@color/theme</item>
+        <item name="colorPrimaryVariant">@color/theme</item>
+        <item name="colorSecondary">@color/theme</item>
+        <item name="colorOnSecondary">@color/theme</item>
+        <item name="colorSecondaryVariant">@color/theme</item>
+    </style>
+
+    <style name="Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:background">@color/dialog</item>
+        <item name="dialogCornerRadius">@dimen/_10dp</item>
+    </style>
+
+</resources>

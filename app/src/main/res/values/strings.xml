@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hidden</string>
+
+    <string name="github">Android app to find proxy server.</string>
+
+    <string name="about">Hesan Farzi developed this app as an open source project on github.
+        \n\nSource code:\nhttps://github.com/hesanfarzi/hidden
+        \n\nNote:\nAll proxies are \"HTTPS\" and have no username or password.
+    </string>
+
+    <string name="select_server">Select server</string>
+    <string name="night_mode">Night mode</string>
+    <string name="about_us">About us</string>
+
+    <string name="error">Please try again.</string>
+
+    <string name="ip">Ip:</string>
+    <string name="status">Status: pending....</string>
+    <string name="no">Cancel</string>
+    <string name="yes">Click to copy</string>
+
+    <string-array name="api_title">
+        <item>a. raw 01</item>
+        <item>a. raw 02</item>
+        <item>a. raw 03</item>
+        <item>b. git 01</item>
+        <item>b. git 02</item>
+        <item>b. git 03</item>
+    </string-array>
+
+    <string-array name="api_array">
+        <item>https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt</item>
+        <item>https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt</item>
+        <item>https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt</item>
+        <item>https://github.com/mertguvencli/http-proxy-list/blob/main/proxy-list/data.txt</item>
+        <item>https://github.com/roosterkid/openproxylist/blob/main/HTTPS_RAW.txt</item>
+        <item>https://github.com/jetkai/proxy-list/blob/main/online-proxies/txt/proxies-https.txt</item>
+    </string-array>
+
+</resources>

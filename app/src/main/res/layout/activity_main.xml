@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:padding="@dimen/_15dp"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:nestedScrollingEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView
+            android:id="@+id/error"
+            android:gravity="center"
+            android:drawablePadding="@dimen/_15dp"
+            android:text="@string/error"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:drawableTopCompat="@drawable/btn_error" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/included"
+        layout="@layout/activity_main_menu" />
+
+</LinearLayout>
